@@ -5,7 +5,7 @@ export default function Statistics(props) {
   return (
     <p>
       <span className="label">{label}</span>
-      <span className="percentage">{percentage}</span>
+      <span className="percentage">{percentage} %</span>
     </p>
   );
 }
