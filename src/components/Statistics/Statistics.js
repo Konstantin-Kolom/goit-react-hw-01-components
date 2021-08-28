@@ -1,23 +1,37 @@
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
+import s from './Statistics.module.css';
 
-export default function Statistics(props) {
-  const { label, percentage } = props;
+export default function Statistics({ title, stats }) {
+  const titleData = title;
+
+  function getRandColor() {
+    var color = Math.floor(Math.random() * Math.pow(256, 3)).toString(16);
+    while (color.length < 6) {
+      color = '0' + color;
+    }
+    return '#' + color;
+  }
+
   return (
-    <>
-      <span className="label">{label}</span>
-      <span className="percentage">{percentage} %</span>
-    </>
+    <section className={s.statistics}>
+      {<h2 className={s.title}>{title ? [titleData] : ''}</h2>}
+      <ul className={s.statList}>
+        {stats.map(stat => (
+          <li className={s.stat} key={stat.id} style={{ backgroundColor: `${getRandColor()}` }}>
+            <span className="label">{stat.label}</span>
+            <span className={s.percentage}>{stat.percentage} %</span>
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 }
 
-// Statistics.propTypes = {
-//   avatar: PropTypes.string.isRequired,
-//   name: PropTypes.isRequired,
-//   tag: PropTypes.isRequired,
-//   location: PropTypes.isRequired,
-//   stats: PropTypes.shape({
-//     followers: PropTypes.number.isRequired,
-//     views: PropTypes.number.isRequired,
-//     likes: PropTypes.number.isRequired,
-//   }),
-// };
+Statistics.propTypes = {
+  title: PropTypes.string.isRequired,
+  stat: PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    label: PropTypes.string.isRequired,
+    percentage: PropTypes.number.isRequired,
+  }),
+};

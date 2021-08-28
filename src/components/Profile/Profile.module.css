@@ -2,7 +2,7 @@
   width: 420px;
   margin-left: auto;
   margin-right: auto;
-  background-color: white;
+  background-color: #ffffff;
   border-radius: 25px;
 }
 
@@ -18,7 +18,7 @@
 .avatar {
   width: 200px;
   border-radius: 50%;
-  border: 1px solid rgb(221, 229, 233);
+  border: 1px solid #dde5e9;
   margin: 20 0 20 0;
 }
 
@@ -30,14 +30,14 @@
 .tag {
   font-size: 25px;
   font-weight: bold;
-  color: rgb(189, 199, 199);
+  color: #bdc7c7;
   margin-bottom: 0;
 }
 
 .location {
   font-size: 25px;
   font-weight: bold;
-  color: rgb(189, 199, 199);
+  color: #bdc7c7;
   margin-bottom: 0;
 }
 
@@ -45,7 +45,7 @@
   font-family: Roboto, sans-serif;
   display: flex;
   justify-content: space-between;
-  background-color: rgb(242, 246, 248);
+  background-color: #f2f6f8;
   padding-left: 0px;
   border-radius: 0 0 20px 20px;
 }
