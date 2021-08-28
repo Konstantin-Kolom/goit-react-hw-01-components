@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Konstantin-Kolom/goit-react-hw-01-components/static/css/main.844f23c3.chunk.css",
-    "main.js": "/Konstantin-Kolom/goit-react-hw-01-components/static/js/main.664de48f.chunk.js",
-    "main.js.map": "/Konstantin-Kolom/goit-react-hw-01-components/static/js/main.664de48f.chunk.js.map",
-    "runtime-main.js": "/Konstantin-Kolom/goit-react-hw-01-components/static/js/runtime-main.2c066443.js",
-    "runtime-main.js.map": "/Konstantin-Kolom/goit-react-hw-01-components/static/js/runtime-main.2c066443.js.map",
-    "static/js/2.b2eefe1d.chunk.js": "/Konstantin-Kolom/goit-react-hw-01-components/static/js/2.b2eefe1d.chunk.js",
-    "static/js/2.b2eefe1d.chunk.js.map": "/Konstantin-Kolom/goit-react-hw-01-components/static/js/2.b2eefe1d.chunk.js.map",
-    "index.html": "/Konstantin-Kolom/goit-react-hw-01-components/index.html",
-    "static/css/main.844f23c3.chunk.css.map": "/Konstantin-Kolom/goit-react-hw-01-components/static/css/main.844f23c3.chunk.css.map",
-    "static/js/2.b2eefe1d.chunk.js.LICENSE.txt": "/Konstantin-Kolom/goit-react-hw-01-components/static/js/2.b2eefe1d.chunk.js.LICENSE.txt"
+    "main.css": "/goit-react-hw-01-components/static/css/main.844f23c3.chunk.css",
+    "main.js": "/goit-react-hw-01-components/static/js/main.664de48f.chunk.js",
+    "main.js.map": "/goit-react-hw-01-components/static/js/main.664de48f.chunk.js.map",
+    "runtime-main.js": "/goit-react-hw-01-components/static/js/runtime-main.00a308d6.js",
+    "runtime-main.js.map": "/goit-react-hw-01-components/static/js/runtime-main.00a308d6.js.map",
+    "static/js/2.b2eefe1d.chunk.js": "/goit-react-hw-01-components/static/js/2.b2eefe1d.chunk.js",
+    "static/js/2.b2eefe1d.chunk.js.map": "/goit-react-hw-01-components/static/js/2.b2eefe1d.chunk.js.map",
+    "index.html": "/goit-react-hw-01-components/index.html",
+    "static/css/main.844f23c3.chunk.css.map": "/goit-react-hw-01-components/static/css/main.844f23c3.chunk.css.map",
+    "static/js/2.b2eefe1d.chunk.js.LICENSE.txt": "/goit-react-hw-01-components/static/js/2.b2eefe1d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2c066443.js",
+    "static/js/runtime-main.00a308d6.js",
     "static/js/2.b2eefe1d.chunk.js",
     "static/css/main.844f23c3.chunk.css",
     "static/js/main.664de48f.chunk.js"
