@@ -13,7 +13,7 @@ export default function Transaction(props) {
 }
 
 Transaction.propTypes = {
-  item: PropTypes.shape({
-    id: PropTypes.number.isRequired,
-  }),
+  type: PropTypes.string.isRequired,
+  amount: PropTypes.string.isRequired,
+  currency: PropTypes.string.isRequired,
 };
